@@ -1,0 +1,38 @@
+body{
+  font-family: Arial;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+h1{
+  margin-top: 20px;
+}
+
+.gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+img{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+img:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px gray;
+}
+
+button{
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
